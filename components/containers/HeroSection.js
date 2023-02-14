@@ -4,7 +4,9 @@ import Button from "../ui/Button"
 const HeroSection = () => {
     return ( 
         <HeroContainer>
-            <div className="image-banner"></div>
+            <div className="image-banner">
+                <img src="banner.webp" alt="" />
+            </div>
             <div className="flex-container">
                 <div className="content-container">
                     <h1>The global commerce platform, built for performance</h1>
@@ -35,7 +37,7 @@ const HeroContainer = styled.section`
     width: 100%;
     overflow: hidden;
 
-    .image-banner {
+    .image-banner img{
         position: absolute;
         top: 0;
         width: 100%;
